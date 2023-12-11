@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*------------------------------------------------------------------------- Navigation Bar --------*/
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #191919;
+    padding: 20px;
+    align-items: center;
+}
+
+.nav .logo img{
+     width: 155px;
+    height: 30px;
+}
+
+.nav h5{
+    color: white;
+    text-align: right;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.nav .input-box{
+    display: flex;
+    align-items: center;
+}
+
+.nav input{
+    width: 400px;
+    height: 36px;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 17px;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: none;
+    border: none;
+}
+
+.nav .sbox{
+    background-color: #FDC519;
+    padding: 8px;
+    color: white;
+    margin-left: -5px;
+    height: 36px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+.nav .sbox:hover{
+    background-color: #DBA802;
+    cursor: pointer;
+}
