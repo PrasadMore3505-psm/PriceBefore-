@@ -93,15 +93,76 @@
     height: 70vh;
     display: flex;
     flex-direction:column;
-    gap: 05px;
     align-items: center;
 }
 
 .hero h1{
     font-size: 30px;
-    padding: 20px 0px;
+    padding: 30px 0px 25px 0px
 }
 
 .hero h5{
     color:grey;
+    font-weight: 300;
+    padding: 0px 0px 40px 0px;
+}
+
+.hero input{
+    width: 500px;
+    height: 45px;
+    outline: none;
+    padding: 0px 10px;
+    font-size: 17px;
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: none;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+.hero button{
+    background-color: #FDC519;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    margin-left: -5px;
+    height: 45px;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    color: #222222;
+    font-weight: 700;
+}
+
+.hero button:hover{
+    background-color: #DBA802;
+    cursor: pointer; 
+    border: n;
+}
+
+
+.hero .deals-but{
+    width: 900px;
+    height: 45px;
+    color: green;
+    background-color: rgba(60, 255, 60, 0.11);
+    border: 1px solid green;
+    margin: 50px 0px;
+    font-size: 16px;
+}
+
+.hero .deals-but:hover{
+    background-color: rgba(60, 255, 60, 0.11);
+}
+
+.hero .tg-but{
+    background-color: rgb(0, 110, 255);
+    color: white;
+    border: 1px solid rgb(0, 110, 255);
+    margin: 0px 0px;
+    font-weight: 400;
+}
+
+.hero .tg-but:hover{
+    background-color: rgb(0, 110, 255);
+}
+
+.bold-txt{
+    font-weight: 900;
 }
