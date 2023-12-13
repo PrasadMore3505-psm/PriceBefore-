@@ -93,10 +93,11 @@
 
 .hero{
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: flex;
     flex-direction:column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .hero h1{
@@ -173,6 +174,65 @@
     font-weight: 900;
 }
 
+/*------------------------------------------------------------------------- Popular Categories --------*/
+
+.popu-cat{
+    width: 100%;
+    height: auto;
+   
+}
+
+.popu-cat h1{
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.popu-cat .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 30px 100px;
+}
+
+.popu-cat .cards .card{
+    width: 40vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.popu-cat .cards .card img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.popu-cat h4{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.popu-cat h4:hover{
+    color: #DBA802;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.popu-cat .card .img{
+    width: auto;
+    height: 165px;
+}
+
+
+.popu-cat .cards .card img{
+    width: 100%;
+    height:100%;
+}
 
 
 /*-------------------------------------------------------------- RESPONSIVE TABLET 970 -----------*/
@@ -193,8 +253,11 @@
         margin: 0 auto;
     }
 
+    .nav .input-box{
+        width: 90vmin;
+    }
     .nav input{
-        width:70vmax;
+        width:90%;
         height: 36px;
         outline: none;
         padding: 0px 10px;
@@ -217,16 +280,17 @@
 
     .hero input{
         margin: 0px 0px 20px 0px;
-        width: 80vmax;
+        width: 90vmin;
     
     }
     
     .hero button{
    
-        width: 80vmax;
+        width: 90vmin;
       
     }
     .hero .deals-but{
+        width: 90vmin;
         margin: 20px;
         height: auto;
     }
@@ -234,5 +298,71 @@
     .hero .tg-but{
         font-size: 16px;
         margin-bottom: 30px;
+        width: 90vmin;
     }
+
+        /*-------------------------------------------------------------------------POPULAR CATEGORIES -----*/
+
+
+    .popu-cat .cards{
+        margin: 0px 10px;
+        padding-top: 10px;
+
+    }
+}
+
+
+
+/*-------------------------------------------------------------- RESPONSIVE ANDROID 514 -----------*/
+
+
+@media(max-width:514px){
+
+   .nav .logo{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-15%,0%);
+    }
+/*
+    .nav .logo img{
+        margin: 0 auto;
+    }
+
+    .nav input{
+        width:50vmax;
+        height: 36px;
+        outline: none;
+        padding: 0px 10px;
+        font-size: 17px;
+        border-radius: 5px 0px 0px 5px;
+        box-shadow: none;
+        border: none;
+    } */
+
+    .hero{
+        height: 60vh;
+    }
+
+    /*-------------------------------------------------------------------------POPULAR CATEGORIES -----*/
+
+    .popu-cat{
+        margin-top: 180px;
+        
+        padding-bottom: 30px;
+    }
+
+    .popu-cat .cards{
+        margin: 0px 10px;
+        padding-top: 10px;
+
+    }
+
+    .popu-cat h1{
+        
+    }
+
+
 }
