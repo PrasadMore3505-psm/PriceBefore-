@@ -184,7 +184,7 @@
 
 .popu-cat h1{
     text-align: center;
-    margin-top: -30px;
+    margin-top: -10px;
     margin-bottom: 10px;
 }
 
@@ -234,7 +234,55 @@
     height:100%;
 }
 
+/*-------------------------------------------------------------- FRQUENTLY ASKED QUESTIONS -----------*/
 
+.faq{
+    width: 100%;
+    height: auto;
+    padding: 10px 100px;
+}
+
+.faq h1{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.questions .top-que{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width:100%;
+    margin: 0px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.questions .quest{
+    width: 90vmin;
+}
+
+.quest h3{
+    padding: 10px;
+    background-color: #DBA802;
+    color: white;
+}
+
+.quest p{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(48, 48, 48);
+    line-height: 23px;
+}
+
+.questions .bottom-que{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width:100%;
+    justify-content: center;
+  
+}
 /*-------------------------------------------------------------- RESPONSIVE TABLET 970 -----------*/
 
 @media(max-width:970px){
@@ -309,6 +357,19 @@
         padding-top: 10px;
 
     }
+
+        /*-------------------------------------------------------------------------FAQ -----*/
+
+
+    .faq{
+    
+        padding: 10px 10px;
+    }
+
+    .questions .quest{
+        width: 70vmin;
+    }
+    
 }
 
 
@@ -360,9 +421,15 @@
 
     }
 
-    .popu-cat h1{
+      /*-------------------------------------------------------------------------FAQ -----*/
+
+
+      .faq{
         
+        padding: 10px 0px;
     }
 
-
+    .questions .quest{
+        /* width: 60vmin; */
+    }
 }
