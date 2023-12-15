@@ -36,6 +36,11 @@
     padding: 10px 0px;
 }
 
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
 .nav .input-box{
     display: flex;
     align-items: center;
