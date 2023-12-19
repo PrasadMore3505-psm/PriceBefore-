@@ -95,10 +95,15 @@
     text-align: center;
 }
 
-.login-section span{
+.login-section span a{
     color: blue;
     text-decoration: underlines;
 }
+
+.login-section span:hover{
+    cursor: pointer;
+}
+
 
 /*-----------------------------------------------------------------RIGHT SECTION -------------*/
 
